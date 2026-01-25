@@ -1,0 +1,26 @@
+# Byte-code files
+*.pyc
+__pycache__/
+# Distillery stuff
+*.egg
+*.egg-info/
+*.whl
+*.manifest
+# Temporary files, caches, etc.
+.cache/
+.mypy_cache/
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+# Editors
+.idea/  # For PyCharm
+.vscode/ # For VS Code (consider only ignoring user settings vs all)
+# OS generated files
+.DS_Store
+# ipython notebooks
+.ipynb_checkpoints
