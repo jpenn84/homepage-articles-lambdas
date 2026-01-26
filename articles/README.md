@@ -12,6 +12,5 @@ Additionally, there is a Status endpoint for basic health checks.
 See [requirements.md](requirements.md) for software requirements.
 
 ## Environmental variables
-- S3 URI: `s3Url` in .env file
-- Object path: `baseUrl` in .env file
-- ARN: `ddbArn` in .env file
+- Asset base URL: `asset_url` in .env file
+- DynamoDB table name: `table` in .env file

@@ -42,9 +42,8 @@ Exmple item:
 
 ### Endpoints
 There should be 2 endpoints:
-- Article List - `articles`
+- Article List - `articles?page={page}`
 - Article Page - `article/{id}`
-- Status - `status`
 
 #### Article list:
 Example response:
@@ -153,13 +152,4 @@ Endpoint: Article Page
 2. {id} URL param is not an integer
     - Return a 400
     - Error Message: "Invalid article ID"
-
-Endpoint: Status
-1. Can connect to DynamoDB
-    - Return a 200
-    - Message: "Connected to data source"
-
-2. Unable to connect to DynamoDB
-    - Return a 503
-    - Error Message: "Unable to connect to data source"
 
